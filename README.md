@@ -8,6 +8,10 @@
 # Look on Devices
 ![enter image description here](https://abhishekcsharp.github.io/lahotel/ezgif.com-video-to-gif%20%2813%29.gif)
 
-# Credits
-[http://instagram.com/_heyabhishek](http://instagram.com/_heyabhishek)
-[Please support me.](https://www.patreon.com/heyabhishek)
+# Support me
+[![enter image description here](https://abhishekcsharp.github.io/lahotel/patreon.png)](https://www.patreon.com/heyabhishek)
+
+# Follow me
+Website - heyabhishek.com
+Instagram - instagram.com/_heyabhishek
+Twitter - twitter.com/_heyabhishek
