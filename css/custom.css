@@ -1,0 +1,581 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Header Section
+2. Main Section
+3. Amenities section
+4. Call Us Section
+5. Room Section
+6. Gallery Section
+7. Reviews Section
+8. Pre Footer Section
+9. Footer Section
+10.Post Footer Section
+11.Feedback Section
+*/
+
+/*--------------------------------------------------------------
+1. Header Section 
+----------------------------------------------------------------*/
+
+.navbar-wrapper {
+  font-size: 16px;
+}
+
+.navbar-brand {
+  margin-top: -27px;
+}
+
+.top-header {
+  height: 30px !important;
+  background-color: #b89f80 !important;
+}
+
+.top-header>.container>.row {
+  margin-top: 5px !important;
+}
+
+.top-header>.container>.row>.col-xs-6>span, .top-header>.container>.row>.col-xs-6>a {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-header {
+    height: 60px !important;
+  }
+}
+
+.navbar-default {
+  background-color: #ffffff
+}
+
+.navbar-right>li :hover {
+  color: #b89f80;
+}
+
+.navbar-right a:hover {
+  border-bottom: 3px solid #b89f80;
+}
+
+a {
+  font-family: 'Roboto', Times, serif;
+}
+
+/*--------------------------------------------------------------
+2. Main Booking Section
+----------------------------------------------------------------*/
+
+#main-section {
+  background: url('../images/back-main-section.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 550px;
+  margin-top: -20px;
+}
+
+.left-main-section {
+  margin-top: 80px;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left-main-section>h1 {
+  font-size: 58px;
+}
+
+.feature-list > p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.button-feature {
+  margin-top: 10px !important;
+  background-color: #cea06b;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button-feature:hover {
+  box-shadow: 0 22px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group>h2 {
+  margin-left: 11px;
+  padding-top: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-top: 110px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form-group input[type=name], input[type=email], input[type=phone], input[type=date] {
+  width: 100%;
+  font-size: 1.2rem;
+  color: #000;
+  background-color: ghostwhite;
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+}
+
+.form-group input[type=name], input[type=email], input[type=phone], input[type=date] :: placeholder {
+  color: #ffffff;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: rgba(0, 0, 0, .4);
+  margin-right: 0.5em;
+  display: block;
+  color: rgb(49, 47, 47);
+}
+
+.button-right {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #cea06b;
+  border: none;
+}
+
+.button-right:hover {
+  background-color: #d4964e;
+}
+
+/*--------------------------------------------------------------
+3. Amenities section Section
+----------------------------------------------------------------*/
+
+#amenities {
+  padding: 2%;
+  text-align: center;
+}
+
+.amenities-heading>h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+}
+
+.amenities-icon {
+  padding-top: 20px;
+  font-size: 85px;
+  color: #cea06b;
+}
+
+#amenities>.container>.row {
+  padding-top: 10px;
+}
+
+/*--------------------------------------------------------------
+4. Call Us Section
+----------------------------------------------------------------*/
+
+#call-us {
+  margin-top: 80px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #000;
+  color: #fffdfa;
+  text-align: center;
+}
+
+#call-us>.container>.row>h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+#call-us>.container>.row>h3 {
+  font-size: 30px;
+  text-decoration: italic;
+  font-family: 'Dancing Script', cursive;
+}
+
+#call-us>.container>.row {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 2%;
+}
+
+/*--------------------------------------------------------------
+5. Room Section
+----------------------------------------------------------------*/
+
+#room {
+  margin: 6%;
+  text-align: center;
+}
+
+#room>.container>.row>img {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.room-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 10%
+}
+
+.room-box>img {
+  width: 100%;
+}
+
+.room-box>div {
+  text-align: center;
+  padding: 5%;
+}
+
+.room-box>div>#h4 {
+  font-size: 25px;
+}
+
+.button-room {
+  background-color: #cea06b;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+.button-room:hover {
+  background-color: #d4964e;
+}
+
+.room-info-section>p {
+  font-family: 'Literata', serif;
+}
+
+.room-info-section {
+  text-align: center;
+  padding: 5%;
+}
+
+.room-info-section>#h4 {
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+6. Gallery Section
+----------------------------------------------------------------*/
+
+.gallery {
+  width: calc(33% - 6px);
+  overflow: hidden;
+  height: fit-content;
+  margin: 3px;
+  padding: 0;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.img-gallery {
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+
+.text {
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  max-width: 80%;
+  text-align: center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display: none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%)
+}
+
+.gallery:hover img {
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+
+.gallery:hover span {
+  color: white;
+  display: block;
+  transition-duration: .3s;
+}
+
+@media only screen and (max-width: 900px) {
+  .gallery {
+    width: calc(50% - 6px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .gallery {
+    width: 100%;
+  }
+}
+
+#gallery {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: rgb(245, 245, 245);
+}
+
+.gallery-logo {
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.container-all {
+  width: fit-content;
+  margin: 20px auto;
+  height: auto;
+}
+
+/*--------------------------------------------------------------
+7. Reviews Section
+----------------------------------------------------------------*/
+
+#reviews {
+  text-align: center;
+  padding: 2%;
+}
+
+.reviews-list-row {
+  padding-bottom: 40px;
+}
+
+.reviews-list>p {
+  margin-top: 10px;
+  color: #494949;
+}
+
+.fa-star {
+  color: #cea06b;
+  font-size: 20px;
+}
+
+.reviews-title {
+  margin-bottom: 50px;
+}
+
+.reviews-title>p {
+  font-family: 'Literata', serif;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.reviews-list {
+  margin: 5%;
+  padding: 15%;
+  -webkit-box-shadow: 15px 15px 22px -7px rgba(232, 168, 79, 1);
+  -moz-box-shadow: 15px 15px 22px -7px rgba(232, 168, 79, 1);
+  box-shadow: 15px 15px 22px -7px rgba(232, 168, 79, 1);
+}
+
+/*--------------------------------------------------------------
+8. Pre Footer Section
+----------------------------------------------------------------*/
+
+.pre-footer {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+#pre-footer {
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #000;
+}
+
+.button-footer {
+  width: 50%;
+  font-size: 1.4rem;
+  padding: 17px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #cea06b;
+  border: none;
+}
+
+.button-footer:hover {
+  background-color: #d39855;
+}
+
+.pre-footer-sub-heading {
+  font-size: 21px;
+  text-decoration: italic;
+  font-family: 'Dancing Script', cursive;
+}
+
+.pre-footer-heading {
+  font-family: 'Roboto', Times, serif;
+}
+
+.pre-footer-row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+#pre-footer {
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------------------------
+9. Footer Section
+----------------------------------------------------------------*/
+
+.footer {
+  background-color: #333333;
+}
+
+.footer-col-1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  padding-left: 20px;
+  color: rgb(233, 229, 229);
+}
+
+.footer-social>.fa {
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(29, 28, 28, 0.5);
+}
+
+.footer-social {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.heading-footer {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+}
+
+.heading-footer-ul {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+}
+
+.heading-footer>#span {
+  color: #ffffff;
+}
+
+.heading-footer-ul>span {
+  padding-bottom: 20px;
+}
+
+.nav-footer {
+  margin-left: -15px;
+}
+
+.sliding-middle-out {
+  display: inline-block;
+  color: #fff;
+  padding-bottom: 3px;
+}
+
+.sliding-middle-out:hover {
+  color: #fff;
+}
+
+.sliding-middle-out:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.sliding-middle-out:hover:after {
+  width: 100%;
+  background: #cea06b;
+}
+
+/*--------------------------------------------------------------
+10. Post Footer Section
+----------------------------------------------------------------*/
+
+.post-footer {
+  padding-top: 10px;
+  text-align: center;
+  color: #c4c4c4;
+  background-color: #181717;
+}
+
+/*--------------------------------------------------------------
+11.Feedback  Section
+----------------------------------------------------------------*/
+
+.feedback {
+  background-color: #cea06b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #cea06b;
+}
+
+.feedback:hover {
+  background-color: #d4964e;
+}
+
+#feedback-button {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+
+/*--------------------------------------------------------------
+END OF CSS
+----------------------------------------------------------------*/
