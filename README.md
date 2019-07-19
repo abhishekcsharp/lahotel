@@ -12,6 +12,6 @@
 [![enter image description here](https://abhishekcsharp.github.io/lahotel/patreon.png)](https://www.patreon.com/heyabhishek)
 
 # Follow me
-Website - heyabhishek.com
-Instagram - instagram.com/_heyabhishek
-Twitter - twitter.com/_heyabhishek
+- Website - heyabhishek.com
+- Instagram - instagram.com/_heyabhishek
+- Twitter - twitter.com/_heyabhishek
