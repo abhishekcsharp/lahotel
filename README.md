@@ -1,4 +1,4 @@
-# Features
+# Demo
 https://abhishekcsharp.github.io/lahotel
 
 # Features
